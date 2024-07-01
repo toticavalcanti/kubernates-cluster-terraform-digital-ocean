@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: flappy-bird
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: flappy-bird
+  template:
+    metadata:
+      labels:
+        app: flappy-bird
+    spec:
+      containers:
+      - name: flappy-bird
+        image: toticavalcanti/flappy-bird:latest
+        ports:
+        - containerPort: 5000
+        resources:
+          requests:
+            memory: "64Mi"
+            cpu: "250m"
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
