@@ -4,7 +4,7 @@
 In this project, we will create a Kubernetes cluster on DigitalOcean and deploy the Flappy Bird application using Terraform. This guide will walk you through the entire process, from setting up your DigitalOcean account to deploying and managing the Kubernetes cluster.
 
 ## Prerequisites
-- A DigitalOcean account (use [this link](https://www.digitalocean.com/) to sign up and receive $200 in credits).
+- A DigitalOcean account (use [this link](https://m.do.co/c/213569994aad) to sign up and receive $200 in credits).
 - Terraform installed on your local machine.
 - kubectl installed on your local machine.
 - A GitHub account for managing your code repository.
@@ -12,7 +12,7 @@ In this project, we will create a Kubernetes cluster on DigitalOcean and deploy 
 ## Setup
 
 ### 1. Create a DigitalOcean Account
-Sign up for a DigitalOcean account [here](https://www.digitalocean.com/).
+Sign up for a DigitalOcean account [here](https://m.do.co/c/213569994aad).
 
 ### 2. Obtain DigitalOcean API Token
 1. Go to the [DigitalOcean Control Panel](https://cloud.digitalocean.com/).
